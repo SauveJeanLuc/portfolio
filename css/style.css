@@ -76,8 +76,12 @@ strong { font-weight: var(--fw-bold)}
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
-
 }
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
 /* Typography */
 h1,
 h2,
@@ -168,9 +172,7 @@ nav{
 
 /* My Services */
 
-.services{
-    margin-bottom: 4em;
-}
+
 .my-services {
     background-color:var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
@@ -190,10 +192,13 @@ nav{
     display: block;
     width: 25%;
     height: 1px;
-    margin: 0.5 m auto 1em;
+    margin: 0.5em auto 1em;
     /* background: currentColor; */
     background: var(--clr-light);
     opacity: 0.25;
+}
+.services{
+    margin-bottom: 4em;
 }
 
 .service{
@@ -210,6 +215,5 @@ nav{
 
     .service + .service {
         margin-left: 2em;
-
     }
 }
